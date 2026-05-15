@@ -1,0 +1,19 @@
+type: environment.insomnia.rest/5.0
+schema_version: "5.1"
+name: ATT SFEC TEST
+meta:
+  id: wrk_bfeb0b11dd684a008662dd9e4c0fe2a3
+  created: 1778805869433
+  modified: 1778805869433
+  description: ""
+environments:
+  name: Base Environment
+  meta:
+    id: env_50cfdeb5d9c4557ff39376ca6decfc3165b8470f
+    created: 1778805869435
+    modified: 1778806092066
+    isPrivate: false
+  data:
+    attPreviewURL: https://api4preview.sapsf.com
+    attODataPath: /odata/v2
+    "": ""
