@@ -257,7 +257,7 @@ collection:
                 meta:
                   id: req_faa69f65ebcc4316ba360520459726d7
                   created: 1778805703042
-                  modified: 1778805703042
+                  modified: 1784682925195
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692401
@@ -301,7 +301,7 @@ collection:
                 meta:
                   id: req_098caf29777e4946bfdf3f48450abb47
                   created: 1778805703043
-                  modified: 1778805703043
+                  modified: 1784736959414
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692397
@@ -317,8 +317,8 @@ collection:
                     value: externalCode,wfRequestNav/wfRequestId,wfRequestNav/status
                     disabled: false
                   - name: $filter
-                    value: externalCode in 'J0001196'
-                    disabled: false
+                    value: externalCode in 'J0006321'
+                    disabled: true
                 headers:
                   - name: Accept
                     value: application/json
@@ -364,7 +364,7 @@ collection:
                 meta:
                   id: req_41f9c4a3ebae457b9dd7d50975a6a6ae
                   created: 1778805703043
-                  modified: 1778805703043
+                  modified: 1784682929023
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692398
@@ -382,12 +382,12 @@ collection:
                     send: true
                     store: true
                   rebuildPath: true
-              - url: https://api4.successfactors.com/odata/v2/cust_PerfilDePuesto_Hijo/$count
+              - url: https://api4.successfactors.com/odata/v2/cust_PerfilDePuesto_Hijo/
                 name: SFEC-T cust_PerfilDePuesto_Hijo -MDF Hijo
                 meta:
                   id: req_6537e1bd9bc84e3b84d9ea5f340d0544
                   created: 1778805703043
-                  modified: 1778805703043
+                  modified: 1784760089208
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692396
@@ -395,27 +395,26 @@ collection:
                 parameters:
                   - name: $select
                     value: externalCode,cust_Completado,lastModifiedDateTime,lastModifiedBy,createdBy
-                    disabled: false
+                    disabled: true
                   - name: $orderby
                     value: lastModifiedDateTime asc
-                    disabled: false
+                    disabled: true
                   - name: $filter
-                    value: externalCode in
-                      'J0000326','J0001210','J0000181','J0000526','J0000755','J0002304','J0002313','J0006711','J0003065','J0003865','J0007048','J0000233','J0000236','J0001258','J0003367','J0001200','J0001201','J0005350','J0001321','J0002184','J0006724','J0002207','J0000204','J0002029','J0002143','J0000206','J0004414','J0004037','J0005378','J0004843','J0004932','J0004532','J0004055','J0002227','J0004834','J0005102','J0005379','J0005667','J0005771','J0005927','J0005928','J0005925','J0006566','J0005884','J0005885','J0005888','J0005402','J0001198','J0006777','J0006783','J0006673','J0005708','J0002144','J0007070','J0001228','J0001197','J0001192','J0004059','J0006546','J0003348','J0001226','J0001216','J0006135','J0006382','J0001196','J0005562'
+                    value: externalCode in 'J0004124'
                     disabled: false
                   - name: $filter
                     value: cust_Completado in '2'
-                    disabled: false
+                    disabled: true
                   - name: $top
                     value: "1"
-                    disabled: false
+                    disabled: true
                 headers:
                   - name: Accept
                     value: application/json
-                    disabled: false
+                    disabled: true
                 authentication:
                   type: basic
-                  username: "{{ATT_PROD_USR}}"
+                  username: "{{ _.ATT_PROD_USR }}"
                   password: "{{ATT_PROD_PWD}}"
                   disabled: false
                 settings:
@@ -431,7 +430,7 @@ collection:
                 meta:
                   id: req_3b3343cd06294734b280d3b1a3625622
                   created: 1778805703044
-                  modified: 1778805703044
+                  modified: 1780062450149
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692395
@@ -554,7 +553,7 @@ collection:
                 meta:
                   id: req_6acc640b0e9345f8aaec2e9b0e197b43
                   created: 1778805703045
-                  modified: 1778805703045
+                  modified: 1780062339648
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692389
@@ -769,7 +768,7 @@ collection:
                 meta:
                   id: req_5c46ecc1e2ed496caf82ead590515dcc
                   created: 1778805703047
-                  modified: 1778805703047
+                  modified: 1780531892450
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692383
@@ -802,7 +801,7 @@ collection:
                 meta:
                   id: req_6781b61d2b484dc2b1ddc7472d334b83
                   created: 1778805703047
-                  modified: 1778805703047
+                  modified: 1784682950498
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692382
@@ -912,7 +911,7 @@ collection:
                 meta:
                   id: req_651fe8fa22ec45b2831a1fd6133988cb
                   created: 1778805703048
-                  modified: 1778805703048
+                  modified: 1780531898484
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692379
@@ -1001,7 +1000,7 @@ collection:
                 meta:
                   id: req_6f4e96b7f5ca4a1e9c525ac3e528f0e3
                   created: 1778805703049
-                  modified: 1778805703049
+                  modified: 1784682958871
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692377
@@ -1373,7 +1372,7 @@ collection:
                 meta:
                   id: req_9c242860d1e941e28869ea857a4d3e99
                   created: 1778805703051
-                  modified: 1778805703051
+                  modified: 1784682972225
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692365
@@ -1455,7 +1454,7 @@ collection:
                 meta:
                   id: req_b74da8009007473081af2c49e77de609
                   created: 1778805703051
-                  modified: 1778805703051
+                  modified: 1780531849597
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692369
@@ -1469,6 +1468,14 @@ collection:
                     disabled: false
                   - name: $filter
                     value: shortDesciptions/sectionId in '4006911041','4006911043'
+                    disabled: true
+                  - name: $filter
+                    value: subModule eq null and roleNav/jobCodeMappings/jobCode in 'J0007123'
+                    description: ""
+                    disabled: false
+                  - name: $filter
+                    value: roleNav/jobCodeMappings/jobCode in 'J0007123'
+                    description: ""
                     disabled: false
                 authentication:
                   type: basic
@@ -1542,7 +1549,7 @@ collection:
                 meta:
                   id: req_44f15a5b554e4aa5ae5f88fb4fbae19f
                   created: 1778805703052
-                  modified: 1778805703052
+                  modified: 1780531919548
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692361
@@ -1582,7 +1589,7 @@ collection:
                 meta:
                   id: req_8d5568a18b3e4c53b7492dbe24db8520
                   created: 1778805703052
-                  modified: 1778805703052
+                  modified: 1784131259490
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692363
@@ -1593,12 +1600,12 @@ collection:
                     [
                       {
                         "__metadata": {
-                          "uri": "cust_PerfilDePuesto_Hijo('J0003074')",
+                          "uri": "cust_PerfilDePuesto_Hijo('J0000030')",
                           "type": "SFOData.cust_PerfilDePuesto_Hijo"
                         },
-                        "externalCode": "J0003074",
-                        "cust_Completado": "3",
-                        "cust_Replica": "0"
+                        "externalCode": "J0000030",
+                        "cust_Completado": "1",
+                        "cust_Replica": "1"
                       }
                     ]
                 parameters:
@@ -1607,8 +1614,8 @@ collection:
                     disabled: false
                 headers:
                   - name: Content-Type
-                    value: application/atom+xml
-                    disabled: true
+                    value: application/json
+                    disabled: false
                 authentication:
                   type: basic
                   username: "{{ATT_PROD_USR}}"
@@ -1627,7 +1634,7 @@ collection:
                 meta:
                   id: req_b9517361ee5a4e209cd83a029d6c8309
                   created: 1778805703052
-                  modified: 1778805703052
+                  modified: 1784683035222
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692359
@@ -1689,7 +1696,7 @@ collection:
                 meta:
                   id: req_103a4562256e4ae09e986ae9538d0f1b
                   created: 1778805703053
-                  modified: 1778805703053
+                  modified: 1780444585723
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692358
@@ -1702,28 +1709,28 @@ collection:
                     value: wfRequestId,status,lastModifiedOn,empWfRequestNav/jobInfoNav/jobCode
                     disabled: false
                   - name: $filter
-                    value: wfRequestId in '2095574'
+                    value: wfRequestId in '2093847'
                     disabled: false
                   - name: $filter
                     value: empWfRequestNav/jobInfoNav/jobCode eq 'J0007070'
-                    disabled: false
+                    disabled: true
                   - name: $select
                     value: wfRequestId,status,empWfRequestNav/jobInfoNav/userId,empWfRequestNav/jobInfoNav/jobCode,wfRequestCommentsNav/comments,wfRequestCommentsNav/actionType
-                    disabled: false
+                    disabled: true
                   - name: $filter
                     value: lastModifiedDateTime ge datetimeoffset'2026-04-09T17:00:00Z'
-                    disabled: false
+                    disabled: true
                   - name: $filter
                     value: status in 'REJECTED','CANCELLED' and empWfRequestNav/jobInfoNav/jobCode
                       eq 'J0007171'
-                    disabled: false
+                    disabled: true
                   - name: $top
                     value: "1"
-                    disabled: false
+                    disabled: true
                   - name: $filter
                     value: empWfRequestNav/jobInfoNav/jobCode eq 'J0001226' and lastModifiedDateTime
                       ge datetimeoffset'2026-04-07T21:01:00Z'
-                    disabled: false
+                    disabled: true
                 headers:
                   - name: Accept
                     value: application/atom+xml
@@ -1749,7 +1756,7 @@ collection:
                 meta:
                   id: req_21d1469395204c7fba2b8741e2c82e50
                   created: 1778805703053
-                  modified: 1778805703053
+                  modified: 1784066142414
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692356
@@ -2929,12 +2936,12 @@ collection:
                     send: true
                     store: true
                   rebuildPath: true
-              - url: https://api4preview.sapsf.com/odata/v2/cust_PerfilDePuesto_Padre/$count
+              - url: https://api4preview.sapsf.com/odata/v2/cust_PerfilDePuesto_Padre/
                 name: SFEC-T cust_PerfilDePuesto_Padre -MDF Padre-
                 meta:
                   id: req_8aff6bbbfa3446f19f7ab47ea6f1a4bc
                   created: 1778805703060
-                  modified: 1778805703060
+                  modified: 1783612675052
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692315
@@ -2945,12 +2952,18 @@ collection:
                     disabled: false
                   - name: $filter
                     value: cust_PerfilPuestoValidoC/cust_Completado ne '1'
-                    disabled: false
+                    disabled: true
                   - name: $select
                     value: externalCode,cust_PerfilPuestoValidoC/externalCode,cust_PerfilPuestoValidoC/externalName,cust_PerfilPuestoValidoC/cust_TituloPuesto,cust_PerfilPuestoValidoC/cust_Puesto
+                    disabled: true
+                  - name: $filter
+                    value: cust_PerfilPuestoValidoC/externalCode in 'J0000233'
+                    description: ""
                     disabled: false
-                  - name: $top
-                    value: "10"
+                headers:
+                  - name: Accept
+                    value: application/json
+                    description: ""
                     disabled: false
                 authentication:
                   type: basic
@@ -2965,13 +2978,12 @@ collection:
                     send: true
                     store: true
                   rebuildPath: true
-              - url: "{{ _.attPreviewURL }}{{ _.attODataPath
-                  }}/cust_PerfilDePuesto_Hijo/$metadata"
+              - url: "{{ _.attPreviewURL }}{{ _.attODataPath }}/$metadata"
                 name: SFEC-T -metadata
                 meta:
                   id: req_95c0d10ba36b4a39882915b77da825c3
                   created: 1778805703060
-                  modified: 1778808512761
+                  modified: 1786982123976
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692318
@@ -3017,7 +3029,7 @@ collection:
                 meta:
                   id: req_c246e3d46ee9431b9dc31de174b0b704
                   created: 1778805703060
-                  modified: 1778805703060
+                  modified: 1784736444208
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692317
@@ -3062,16 +3074,21 @@ collection:
                     send: true
                     store: true
                   rebuildPath: true
-              - url: https://api4preview.sapsf.com/odata/v2/cust_PerfilDePuesto_Hijo/$metadata
+              - url: https://api4preview.sapsf.com/odata/v2/cust_PerfilDePuesto_Hijo/
                 name: SFEC-T cust_PerfilDePuesto_Hijo -MDF Puesto Hijo-
                 meta:
                   id: req_2a1b1364366c40e18cd85278aef3713a
                   created: 1778805703061
-                  modified: 1778805703061
+                  modified: 1784133941780
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692312
                 method: GET
+                parameters:
+                  - name: $filter
+                    value: externalCode in 'J0002143'
+                    description: ""
+                    disabled: false
                 authentication:
                   type: basic
                   username: "{{ATT_PREVIEW_USR}}"
@@ -3090,7 +3107,7 @@ collection:
                 meta:
                   id: req_43ced6a887a64e368086dd3f8321f0c1
                   created: 1778805703061
-                  modified: 1778805703061
+                  modified: 1783612612570
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692310
@@ -3101,7 +3118,7 @@ collection:
                     disabled: false
                   - name: $select
                     value: externalCode
-                    disabled: false
+                    disabled: true
                 headers:
                   - name: Accept
                     value: application/json
@@ -3147,7 +3164,7 @@ collection:
                 meta:
                   id: req_d97c137782914ec3a462061a5f142180
                   created: 1778805703061
-                  modified: 1778805703061
+                  modified: 1784133768418
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692311
@@ -3166,7 +3183,7 @@ collection:
                     value: wfRequestNav/empWfRequestNav/eventReasonNav,wfRequestNav/parentWfRequestNav
                     disabled: false
                   - name: $filter
-                    value: externalCode eq 'J0000'
+                    value: externalCode eq 'J0002143'
                     disabled: false
                 headers:
                   - name: Accept
@@ -3236,7 +3253,7 @@ collection:
                 meta:
                   id: req_83829c813ebd4b59a392c3f8c7fc0960
                   created: 1778805703062
-                  modified: 1778805703062
+                  modified: 1784682747739
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692301
@@ -3355,7 +3372,7 @@ collection:
                 meta:
                   id: req_e559e715f4bf49ecbdb6995ceb59cf45
                   created: 1778805703062
-                  modified: 1778805703062
+                  modified: 1787070200103
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692302
@@ -3363,6 +3380,15 @@ collection:
                 parameters:
                   - name: $filter
                     value: jobCodeNav/cust_Familia
+                    disabled: true
+                  - name: $top
+                    value: "10"
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: Accept
+                    value: application/json
+                    description: ""
                     disabled: false
                 authentication:
                   type: basic
@@ -3439,7 +3465,7 @@ collection:
                 meta:
                   id: req_8ac8be37d45b47579be6dc2877046a62
                   created: 1778805703063
-                  modified: 1778805703063
+                  modified: 1784682779452
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692299
@@ -3476,7 +3502,7 @@ collection:
                 meta:
                   id: req_96f62a7b9e164d28809c625fe90dbcf4
                   created: 1778805703063
-                  modified: 1778805703063
+                  modified: 1784682754359
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692300
@@ -3624,7 +3650,7 @@ collection:
                 meta:
                   id: req_69d98c3923374ef19f566a71333b37dd
                   created: 1778805703064
-                  modified: 1778805703064
+                  modified: 1784682788954
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692296
@@ -3956,7 +3982,7 @@ collection:
                 meta:
                   id: req_0ea240242dbd41f9a9f849021ce271fe
                   created: 1778805703066
-                  modified: 1778805703066
+                  modified: 1784736773608
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692284
@@ -3964,7 +3990,11 @@ collection:
                 parameters:
                   - name: $filter
                     value: PickListV2_id eq 'EC_Interacciones' and status eq 'A'
-                    disabled: false
+                    disabled: true
+                  - name: $filter
+                    value: PickListV2_id eq 'archivo adjunto'
+                    description: ""
+                    disabled: true
                 authentication:
                   type: basic
                   username: "{{ATT_PREVIEW_USR}}"
@@ -4278,23 +4308,49 @@ collection:
                 meta:
                   id: req_cbd5f6dd14af4023bee11780db8d1dbe
                   created: 1778805703067
-                  modified: 1778805703067
+                  modified: 1784830323509
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692278
                 method: POST
                 body:
                   mimeType: application/json
-                  text: |-
+                  text: >-
                     [
                       {
-                        "__metadata": {
-                          "uri": "cust_PerfilDePuesto_Hijo('J0007171')",
-                          "type": "SFOData.cust_PerfilDePuesto_Hijo"
-                        },
-                        "externalCode": "J0007171",
-                        "cust_Completado": "0",
-                        "cust_Replica": "0"
+                        "__metadata": {"uri":"cust_PerfilDePuesto_Hijo('J0002893')","type":"SFOData.cust_PerfilDePuesto_Hijo"},
+                        "externalCode": "J0002893",
+                        "cust_Tipo_Flujo": "01",
+                        "cust_Titulo_Ingles": "Gerente Jr Adquisicion Vta Cruzada VAS",
+                        "cust_Completado": "2",
+                        "cust_Experiencia": "\nMínima:\t5 años\n\nDeseada:\t7 años\n\n",
+                        "cust_Replica": "1",
+                        "cust_InteraccionesRelaciones": "1001667",
+                        "cust_PuestosAnteriores": "\nAnalista de Procesos\t3 años\n\nCoordinador de Producto / Captación VAS\t2 años\n\n",
+                        "cust_PropositoDeInteraccion": "1001724",
+                        "externalName": "392498",
+                        "cust_TituloPuesto": "Gerente Jr Adquisicion Vta Cruzada VAS",
+                        "cust_titulo_sugerido": null,
+                        "cust_PrincipalesResponsabilidades": "\n1\t¿Qué?\tDefinir la estrategia de venta cruzada (cross selling) hacia la base existente de usuarios pospago\t25\n\n\t¿Cómo?\tidentificando necesidades puntuales que puedan ser atendidas con los productos existentes (add ons, paquetes, servicios adicionales) o a través de las alianzas con proveedores de VAS\t\n\n\t¿Para qué?\tincrementar los ingresos de la compañía a través de la monetización de la base de usuarios\t\n\n2\t¿Qué?\tDiseña y supervisa la implementación de iniciativas, ofertas o promociones de renovación\t25\n\n\t¿Cómo?\tasegurando el end to end de promociones y ofertas de renovación, asegurando una correcta implementación comercial y operativa así como asegurando mediciones recurrentes\t\n\n\t¿Para qué?\tpara implementar mejoras constantes\t\n\n3\t¿Qué?\tDiseña y supervisa la implementación de iniciativas, ofertas o promociones de retención\t25\n\n\t¿Cómo?\tasegurando que los equipos comerciales y de atención a clientes cuenten con las herramientas necesarias para evitar el abandono de usuarios, cuidando la rentabilidad de las iniciativas\t\n\n\t¿Para qué?\tpara asegurar una retención rentable, sostenible y eficiente\t\n\n4\t¿Qué?\tLidera la implementación de proyectos especiales de monetización\t25\n\n\t¿Cómo?\ta través de la coordinación de equipos multidisciplinarios, asegurando una implementación ágil, de la mano de las áreas claves de la empresa y dando seguimiento post implementacion\t\n\n\t¿Para qué?\tpara asegurar que los objetivos comprometidos por cada proyecto sean alcanzados, medidos y reportados de forma oportuna\n\n",
+                        "cust_Rol": null,
+                        "cust_Educacion": "\nMínima:\tLicenciatura/Ingeniería Pasante en Mercadotecnia, Administración, Ingeniería, Finanzas o afín.\n\nDeseada:\tMaestría Pasante en mercadotecnia, negocios o afín.\n\n",
+                        "cust_Puesto": "J0003708",
+                        "cust_ObjetivoDePosicion": "\n1.\tMandos medios\tDesarrollar estrategias de monetización de la base de usuarios pospago a través de iniciativas de cross selling (venta cruzada), renovación y extensión del tiempo de vida por retención\n\n2.\tMandos medios\tAsegurar la implementación de proyectos especiales de rentabilidad, monetización o mejoras operativas que repercutan directamente en los indicadores de ingreso, churn o retención de los usuarios pospago\n\n3.\tMandos medios\tSupervisar la correcta operación e implementación de estrategias de comunicación hacia la base de usuarios pospago, en los indicadores de renovación, retención, cross seeling y colocación de VAS\n\n",
+                        "cust_Id_Workflow": null,
+                        "cust_PaquetesDeComputo": "Oficce",
+                        "cust_Grado": "A_14",
+                        "cust_Digital": false,
+                        "cust_Certificaciones": null,
+                        "cust_Proceso_Hijo": "1",
+                        "cust_UserActualizo": null,
+                        "cust_Idiomas": "\nIdioma\tHabla\tEscribe\tLee\n\nIngles\tAvanzado\tAvanzado\tAvanzado\n\n",
+                        "cust_ReportesDirectos": "2",
+                        "cust_NIveles_Riesgo": null,
+                        "cust_Competencias": null,
+                        "cust_ObjetivoDePosicion_Editado": "Desarrollar estrategias de monetización de la base de usuarios pospago a través de iniciativas de cross selling (venta cruzada), renovación y extensión del tiempo de vida por retención Asegurar la implementación de proyectos especiales de rentabilidad, monetización o mejoras operativas que repercutan directamente en los indicadores de ingreso, churn o retención de los usuarios pospago Supervisar la correcta operación e implementación de estrategias de comunicación hacia la base de usuarios pospago, en los indicadores de renovación, retención, cross seeling y colocación de VAS",
+                        "cust_PrincipalesResponsabilidades_Editado": "Definir la estrategia de venta cruzada (cross selling) hacia la base existente de usuarios pospago identificando necesidades puntuales que puedan ser atendidas con los productos existentes (add ons, paquetes, servicios adicionales) o a través de las alianzas con proveedores de VAS incrementar los ingresos de la compañía a través de la monetización de la base de usuarios Diseña y supervisa la implementación de iniciativas, ofertas o promociones de renovación asegurando el end to end de promociones y ofertas de renovación, asegurando una correcta implementación comercial y operativa así como asegurando mediciones recurrentes para implementar mejoras constantes Diseña y supervisa la implementación de iniciativas, ofertas o promociones de retención asegurando que los equipos comerciales y de atención a clientes cuenten con las herramientas necesarias para evitar el abandono de usuarios, cuidando la rentabilidad de las iniciativas para asegurar una retención rentable, sostenible y eficiente Lidera la implementación de proyectos especiales de monetización a través de la coordinación de equipos multidisciplinarios, asegurando una implementación ágil, de la mano de las áreas claves de la empresa y dando seguimiento post implementacion para asegurar que los objetivos comprometidos por cada proyecto sean alcanzados, medidos y reportados de forma oportuna",
+                        "cust_Replica": "2",
+                        "cust_Id_Workflow": "J0002893_20260723181156"
                       }
                     ]
                 parameters:
@@ -4303,8 +4359,7 @@ collection:
                     disabled: false
                 headers:
                   - name: Content-Type
-                    value: application/atom+xml
-                    disabled: true
+                    value: application/json
                 authentication:
                   type: basic
                   username: "{{ATT_PREVIEW_USR}}"
@@ -6125,6 +6180,33 @@ collection:
                     send: true
                     store: true
                   rebuildPath: true
+              - url: https://api4preview.sapsf.com/odata/v2/cust_Document?$top=1
+                name: SFEC-T CustDocument
+                meta:
+                  id: req_34f72dcb9cf74a9b96e368c87412e8dd
+                  created: 1784736480939
+                  modified: 1784736504621
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1778805692316.5
+                method: GET
+                parameters:
+                  - name: $top
+                    value: "10"
+                    disabled: false
+                authentication:
+                  type: basic
+                  username: "{{ATT_PREVIEW_USR}}"
+                  password: "{{ATT_PREVIEW_PWD}}"
+                  disabled: false
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
           - name: SAP IAS
             meta:
               id: fld_877e63f95c41407d85492f8596867d64
@@ -6191,16 +6273,262 @@ collection:
               sortKey: -1778805692253
               description: ""
             children:
-              - url: https://al74pw5u9.accounts.ondemand.com/service/scim/Groups
-                name: Users
+              - url: https://al74pw5u9.accounts.ondemand.com/scim/Groups/
+                name: Groups
                 meta:
                   id: req_6561b000880d405d8dbf8a8ff77b20d3
                   created: 1778805703073
-                  modified: 1778805703073
+                  modified: 1781295196967
                   isPrivate: false
                   description: ""
                   sortKey: -1778805692252
                 method: GET
+                headers:
+                  - name: Accept
+                    value: application/scim+json
+                    description: ""
+                    disabled: false
+                authentication:
+                  type: basic
+                  username: 555159fa-9297-4cba-972c-0891b4636907
+                  password: ZIQJW?G]Kon5OAoE[Z12uNDzZsH-R4v
+                  disabled: false
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: https://al74pw5u9.accounts.ondemand.com/scim/Groups/68da6d0b-9553-4b72-9b66-5809df5a6d33
+                name: PUT Groups
+                meta:
+                  id: req_eb5bdf6c01d6486da6c3296e3e3e5ee0
+                  created: 1780958688333
+                  modified: 1781038109300
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1778794564751.5
+                method: PATCH
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"schemas": [
+                    		"urn:ietf:params:scim:api:messages:2.0:PatchOp"
+                    	],
+                    	"Operations": [
+                    		{
+                    			"op": "add",
+                    			"path": "members",
+                    			"value": [
+                    				{
+                    					"value": "a014bc48-4525-4d13-9d88-b781e4cb567b"
+                    				}
+                    			]
+                    		}
+                    	]
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/scim+json
+                  - name: Accept
+                    value: application/scim+json
+                    description: ""
+                    disabled: false
+                authentication:
+                  type: basic
+                  username: 555159fa-9297-4cba-972c-0891b4636907
+                  password: ZIQJW?G]Kon5OAoE[Z12uNDzZsH-R4v
+                  disabled: false
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: https://al74pw5u9.accounts.ondemand.com/scim/Users
+                name: Users
+                meta:
+                  id: req_0e102614f60242409694fa7f776e4c14
+                  created: 1780959484958
+                  modified: 1781296065452
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1778800128501.75
+                method: GET
+                parameters:
+                  - name: filter
+                    value: userName eq "gn916x"
+                    description: ""
+                    disabled: false
+                authentication:
+                  type: basic
+                  username: 555159fa-9297-4cba-972c-0891b4636907
+                  password: ZIQJW?G]Kon5OAoE[Z12uNDzZsH-R4v
+                  disabled: false
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: https://al74pw5u9.accounts.ondemand.com/scim/Users
+                name: POST Users
+                meta:
+                  id: req_a27c5adbed0c4bacb990d7dccbaa82c3
+                  created: 1780959989392
+                  modified: 1781296403229
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1778789001001.25
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: |-
+                    {
+                    	"schemas": [
+                    		"urn:ietf:params:scim:schemas:core:2.0:User"
+                    	],
+                    	"userName": "gn916x",
+                    	"name": {
+                    		"familyName": "Nuñez.Coliote",
+                    		"givenName": "Gustavo"
+                    	},
+                    	"displayName": "Gustavo Nuñez.Coliote (gn916x)",
+                    	"userType": "employee",
+                    	"active": true,
+                    	"emails": [
+                    		{
+                    			"value": "gn916xdummy@att.com",
+                    			"primary": true
+                    		}
+                    	]
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/scim+json
+                  - name: Accept
+                    value: application/scim+json
+                    description: ""
+                    disabled: false
+                authentication:
+                  type: basic
+                  username: 555159fa-9297-4cba-972c-0891b4636907
+                  password: ZIQJW?G]Kon5OAoE[Z12uNDzZsH-R4v
+                  disabled: false
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: https://al74pw5u9.accounts.ondemand.com/scim/Users/ca5e5820-4083-4b44-b27a-ef217748e25a
+                name: PATCH Users
+                meta:
+                  id: req_105dc3a4fb4f4fef87c6f281fdee7a20
+                  created: 1781034803462
+                  modified: 1781036344750
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1778791782876.375
+                method: PATCH
+                body:
+                  mimeType: application/json
+                  text: |
+                    {
+                    	"schemas": [
+                    		"urn:ietf:params:scim:api:messages:2.0:PatchOp"
+                    	],
+                    	"Operations": [
+                    		{
+                    			"op": "replace",
+                    			"path": "active",
+                    			"value": false
+                    		}
+                    	]
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/scim+json
+                  - name: Accept
+                    value: application/scim+json
+                    description: ""
+                    disabled: false
+                authentication:
+                  type: basic
+                  username: 555159fa-9297-4cba-972c-0891b4636907
+                  password: ZIQJW?G]Kon5OAoE[Z12uNDzZsH-R4v
+                  disabled: false
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: https://al74pw5u9.accounts.ondemand.com/scim/Users/ca5e5820-4083-4b44-b27a-ef217748e25a
+                name: Users
+                meta:
+                  id: req_129c063e0c914e90a6aaf0a268dd9668
+                  created: 1781037679406
+                  modified: 1781039872323
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1778797346626.625
+                method: DELETE
+                authentication:
+                  type: basic
+                  username: 555159fa-9297-4cba-972c-0891b4636907
+                  password: ZIQJW?G]Kon5OAoE[Z12uNDzZsH-R4v
+                  disabled: false
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: https://al74pw5u9.accounts.ondemand.com/scim/Groups/68da6d0b-9553-4b72-9b66-5809df5a6d33
+                name: PATCH Groups Remove Members
+                meta:
+                  id: req_6f76071f1e0d4ca280320e81ea162161
+                  created: 1781038127024
+                  modified: 1781219130575
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1778793173813.9375
+                method: PATCH
+                body:
+                  mimeType: application/json
+                  text: >-
+                    {
+                    	"schemas": [
+                    		"urn:ietf:params:scim:api:messages:2.0:PatchOp"
+                    	],
+                    	"Operations": [
+                    		{
+                    			"op": "remove",
+                    			"path": "members[value eq \"a014bc48-4525-4d13-9d88-b781e4cb567b\"]"
+                    		}
+                    	]
+                    }
+                headers:
+                  - name: Content-Type
+                    value: application/scim+json
+                  - name: Accept
+                    value: application/scim+json
+                    description: ""
+                    disabled: false
                 authentication:
                   type: basic
                   username: 555159fa-9297-4cba-972c-0891b4636907
@@ -6219,27 +6547,27 @@ cookieJar:
   meta:
     id: jar_1d8cfe5a01ca82e8a12d478e8b790824d77869e7
     created: 1778805703116
-    modified: 1778807633231
+    modified: 1786989731723
   cookies:
-    - id: bf42c8df-422e-44d6-bf51-96fcef864425
-      key: route
-      value: 1778807634.028.22.331428|5e6fddba7a0c23e83b17f38a4ba638f1
-      domain: api4preview.sapsf.com
-      path: /
-      secure: true
-      httpOnly: true
-      hostOnly: true
-    - id: 59b41a8d-1749-4e07-b033-64ec6144005b
+    - id: cab43257-211e-4727-9814-a9224f96d130
       key: JSESSIONID
-      value: 7AFFC7B29A110FEFA250E62110C7F29E.sc68bsfapi-5f7f87d9-t4xgg#IusacellTest##1778807634.028.22.331428|5e6fddba7a0c23e83b17f38a4ba638f1
+      value: 66EA73BE009D55DD94356C3272E17492.sc68bsfapi-7495b658d5-hddh5#IusacellTest##1786989731.516.23.749800|5e6fddba7a0c23e83b17f38a4ba638f1
       domain: api4preview.sapsf.com
       path: /odata
       secure: true
       httpOnly: false
       hostOnly: true
-    - id: d3fabfda-fd8e-40d7-adf5-83ae93de4396
+    - id: 00169bcc-2d0c-42ec-94bc-51ac6988ae57
+      key: route
+      value: 1786989731.516.23.749800|5e6fddba7a0c23e83b17f38a4ba638f1
+      domain: api4preview.sapsf.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+    - id: 2fc578e0-50a9-4e90-a1cc-5f0adda66722
       key: JSESSIONID
-      value: 58630708B18523C8B8025FAF2F1C2576.sc68bsfapi-5f7f87d9-b657s#IusacellTest##1778806690.374.23.627977|5e6fddba7a0c23e83b17f38a4ba638f1
+      value: 9680160E37D7CF7BDB79434547487C0F.sc68bsfapi-7495b658d5-wl52p#IusacellTest##1786989269.927.22.95125|5e6fddba7a0c23e83b17f38a4ba638f1
       domain: api4preview.sapsf.com
       path: /
       secure: true
@@ -6250,7 +6578,7 @@ environments:
   meta:
     id: env_448fce507a4840e2bc849954798c45cd
     created: 1778805703073
-    modified: 1778805703073
+    modified: 1780062324740
     isPrivate: false
   data:
     ATT_PREVIEW_USR: ATT_CPI2@IusacellTest
@@ -6258,5 +6586,5 @@ environments:
     ATT_TRIGGER_WF_USR: ATT_CPI3@IusacellTest
     ATT_TRIGGER_WF_PWF: Cancun#2026
     SFECSOAPAPI_ID: ""
-    ATT_PROD_USR: ""
-    ATT_PROD_PWD: ""
+    ATT_PROD_USR: ATT_CPI@Iusacell
+    ATT_PROD_PWD: M3xiCo_95*
